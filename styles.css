@@ -9,7 +9,14 @@ body {
 }
 
 .score-board{
-  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  margin-top: 100px;
+  margin-bottom: 30px;
   padding: 50px 70px;
   display: flex;
   gap: 40px;
@@ -18,6 +25,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 5px black;
 }
+
 
 .teams {
   display: flex;
@@ -54,4 +62,16 @@ h3 {
   margin: 0;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#new-game {
+  margin: 0;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 15px 20px;
+  color: #9AABD8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  background-color: #1B244A;
+  box-shadow: 0 0 5px black;
 }
